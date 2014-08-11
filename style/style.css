@@ -1,0 +1,106 @@
+.wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.left_form label{
+	margin-right: 50px;
+}
+
+.under_text{
+	font-style: italic;
+}
+
+.contact_form{
+	color: white;
+	background-color: #948683;
+	padding: 30px;
+	width: 27.5%;
+	float:left;
+	clear:both;
+	padding-left: 40px;
+	padding-right: 22px;
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+}
+
+input[type=radio] {
+  display: inline;
+}
+
+label{
+	white-space: nowrap;
+}
+
+.right_form{
+	color: white;
+	background-color: #948683;
+	padding-left: 60px;
+	padding-right: 0px;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	width: 60%; 
+	float:right;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+}
+
+.sub_button{
+	font-size: 16px;
+	background-color: white;
+	border:none;
+	font-weight: bold;
+	padding: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 4px;
+	display: inline;
+	margin-left: 55%;
+}
+
+p{
+	color: white;
+}
+
+/* Fields */
+
+.description_form,.description_form_two,.website_needs_text{
+	border-radius: 10px;
+	outline: none;
+}
+
+
+
+
+.firstname,.contact,.email,.business,.business_profile,.domain,.status{
+	border-radius: 5px;
+	display:block;
+	padding-right: 70px;
+}
+
+.bp_smalltext,.domain_smalltext,.status_smalltext{
+	font-size: 14px;
+	font-style: italic;
+}
+
+.website_needs_text{
+	margin-bottom: 30px;
+}
+
+.radio_text{
+	margin-bottom: 20px;
+}
+
+textarea{
+	font-size: 13px;
+	text-indent: 15px;
+}
+
+.no_radio{
+	margin-bottom: 25px;
+}
+
+
+input, label {
+    display:block;
+}
